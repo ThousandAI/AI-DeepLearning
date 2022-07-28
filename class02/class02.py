@@ -134,4 +134,4 @@ for epoch in range(epochs):
     w4.grad.zero_()
 
     if epoch % 5 == 0:
-        print(f"epoch {epoch + 1}: \nw1 = {w1}\n w2 = {w2}\n w3 = {w3}\n w4 = {w4}\n w4 = {w4}, loss = {bce_loss:.8f}")
+        print(f"epoch {epoch + 1}: \nw1 = {w1}\n w2 = {w2}\n w3 = {w3}\n w4 = {w4}, loss = {bce_loss:.8f}")
